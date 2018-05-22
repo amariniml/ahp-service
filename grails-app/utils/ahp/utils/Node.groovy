@@ -42,8 +42,24 @@ class Node<T> {
     }
 
     static <T> void printTree(Node<T> node, String appender) {
-        System.out.println(appender + node.getData())
+        System.out.println(appender + ((VIPD) node.getData()).getDescription())
         node.getChildren().each { each ->  printTree(each, appender + appender) }
+    }
+
+    static <T> Node searchNodeById(Node<T> node,String idString){
+        if(idString == '')
+            return node
+        String id = idString[0]
+        Iterator childIterator = node.getChildren().iterator()
+        while(childIterator.hasNext()){
+            Node nodeToReturn = childIterator.next()
+            if(((VIPD) nodeToReturn.getData()).getId() == id.toInteger()){
+                if(idString.length()==1)
+                    return searchNodeById(nodeToReturn,"")
+                return searchNodeById(nodeToReturn,idString.substring(2))
+            }
+        }
+        return node
     }
 }
 

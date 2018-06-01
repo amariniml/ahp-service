@@ -7,7 +7,7 @@ class UrlMappings {
             }
         }
 
-        "/"(view:"/index")
+        "/"(view:"/create/matrixGeneration")
         "500"(view:'/error')
 
 
@@ -16,13 +16,16 @@ class UrlMappings {
             action = [GET: "ping"]
         }
 
-        "/create/hierarchy"(controller: "create", parseRequest: true) {
-            action = [POST: "createHierarchy"]
-        }
+        "/"(view:"/index")
+        "500"(view:'/error')
+//
+//        "/create/hierarchy"(controller: "create", parseRequest: true) {
+//            action = [POST: "createHierarchy"]
+//        }
 
-        "/create/matrix"(controller: "create", parseRequest: true) {
-            action = [GET: "generateMatrix"]
-        }
+//        "/create/matrix"(controller: "create", parseRequest: true) {
+//            action = [GET: "generateMatrix"]
+//        }
 
 
 	}

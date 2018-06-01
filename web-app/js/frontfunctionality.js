@@ -169,27 +169,26 @@ function removealternative(){
 }
 
 
-function makesomemagic(row,column,criteria){
-
+function makeSomeMagic(row,column,criteria){
 	criteria = criteria || 0;
 
 	if(criteria==0){
-		var elem_reciproco = "#c"+column+row;
+		var transposeElem = "#c"+column+row;
 		var elem = "#c"+row+column;
 	}
 	else{
-		var elem_reciproco = "#"+criteria+column+row;
+		var transposeElem = "#"+criteria+column+row;
 		var elem = "#"+criteria+row+column;
 	}
 
-	var valor = $(elem).val();
+	var value = $(elem).val();
 
-	if(valor>9 || valor==0){
+	if(value>9 || value==0){
 		$(elem).val('');
-		$(elem_reciproco).val('');
+		$(transposeElem).val('');
 	}
-	else if(valor!=0){
-		$(elem_reciproco).val(1/valor);
+	else if(value!=0){
+		$(transposeElem).val(1/value);
 	}
 }
 

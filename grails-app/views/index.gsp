@@ -129,11 +129,7 @@
 <script src="js/jquery-3.2.1.min.js"></script>
 <script src="js/tether.min.js"></script>
 <script src="js/bootstrap.min.js"></script>
-<script src="js/numeric-1.2.6.min.js" type="text/javascript"></script>
-<script src="js/hierarchy.js"></script>
-<script src="js/ahp.js"></script>
 <script src="js/frontfunctionality.js"></script>
-<script src="js/sorttable.js"></script>
 
 </body>
 </html>

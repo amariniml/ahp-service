@@ -3,8 +3,8 @@ package ahp.utils;
 public class VIPD {
     private int id;
     private String description;
-    private float localPriority;
-    private float globalPriority;
+    private double localPriority;
+    private double globalPriority;
 
     public VIPD(int id, String description) {
         this.id = id;
@@ -29,19 +29,19 @@ public class VIPD {
         this.description = description;
     }
 
-    public float getLocalPriority() {
+    public double getLocalPriority() {
         return localPriority;
     }
 
-    public void setLocalPriority(float localPriority) {
+    public void setLocalPriority(double localPriority) {
         this.localPriority = localPriority;
     }
 
-    public float getGlobalPriority() {
+    public double getGlobalPriority() {
         return globalPriority;
     }
 
-    public void setGlobalPriority(float globalPriority) {
+    public void setGlobalPriority(double globalPriority) {
         this.globalPriority = globalPriority;
     }
 }

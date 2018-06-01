@@ -52,15 +52,6 @@ a{
 }
 
 
-
-#pairwaise{
-	display: none;
-}
-
-#pairwaise-a-a{
-	display: none;
-}
-
 .table-pairwaise{
 	border-collapse: collapse;
 	border-radius: 1em;
@@ -102,10 +93,6 @@ a{
 
 }
 
-#dothemath-button{
-	display: none;
-}
-
 
 .table-pairwaise td{
 	text-align: center;
@@ -121,9 +108,6 @@ a{
 }
 
 
-#results{
-	display: none;
-}
 
 input[type=number]::-webkit-inner-spin-button,
 input[type=number]::-webkit-outer-spin-button {
@@ -135,4 +119,10 @@ input[type=number] {
   -moz-appearance: textfield;
   appearance: textfield;
   margin: 0;
+}
+
+
+.winner{
+	font-size: 20px;
+	color: #1d3318;
 }

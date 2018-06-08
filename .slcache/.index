@@ -4533,3 +4533,7 @@ n:1500:org/codehaus/groovy/grails/web/json/parser/JsonParserConstants
 n:2458:org/codehaus/groovy/tools/javac/JavaAwareResolveVisitor
 n:5370:org/codehaus/groovy/tools/javac/JavaStubGenerator$1
 n:1800:sl/org/objectweb/asm/tree/FrameNode
+n:17780:grails/converters/JSON
+n:499:org/codehaus/groovy/grails/web/converters/IncludeExcludeConverter
+n:732:org/codehaus/groovy/grails/web/converters/ConfigurableConverter
+n:3082:org/codehaus/groovy/grails/web/converters/AbstractConverter

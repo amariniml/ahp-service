@@ -7,7 +7,7 @@ h3. Relation to Resources Plugin
 Asset-Pipeline is intended to replace the defacto Grails equivalent [resources-plugin|http://grails.org/plugin/resources] with a more efficient, developer friendly architecture (similar to [Rails Asset Pipeline|http://guides.rubyonrails.org/asset_pipeline.html]). The Asset-Pipeline levereges the latest in minification (UglifyJS) to reduce your asset sizes as much as possible. A few differences between the resources plugin and asset-pipeline include:
 
 * On the fly processing - No more waiting for your assets to reload after making a change
-* Compiled assets on war create - No more hanging up application boot times while processing files. @grails war@
+* Compiled assets on war AHP - No more hanging up application boot times while processing files. @grails war@
 * Reduced Dependence - The plugin has compression, minification, and cache-digests built in.
 * Easy Debugging - Makes for easy debugging by keeping files seperate in development mode.
 * Simpler manifests and taglibs - Read on for more information.

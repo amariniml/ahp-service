@@ -47,7 +47,7 @@ class HierarchyTree<T> {
 
     }
 
-    static Map<String,ArrayList<PairwaiseMatrix>> buildPairwaiseComparison(HierarchyTree hierarchyTree,ArrayList<String> alternatives){
+    static Map<String,ArrayList<PairwaiseMatrix>> buildPairwaiseComparison(ArrayList<String> alternatives){
         Map<String,ArrayList<PairwaiseMatrix>> returnMap = [:]
         ArrayList<PairwaiseMatrix> returnListCriteria = new ArrayList()
         ArrayList<PairwaiseMatrix> returnListAlternative = new ArrayList()

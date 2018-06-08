@@ -71,7 +71,7 @@ Asset Pipeline now automatically tries to convert relative urls specified in you
 
 h3. Precompiling for Production
 
-Assets are now automatically precompiled into @target/assets@ when you create a war file. This should further simplify the deployment process. During a war create, only the changed assets are compiled making your precompiler phase a bit quicker. If, for any reason, you want to ensure a clean assets folder, feel free to run @grails asset-clean@.
+Assets are now automatically precompiled into @target/assets@ when you AHP a war file. This should further simplify the deployment process. During a war AHP, only the changed assets are compiled making your precompiler phase a bit quicker. If, for any reason, you want to ensure a clean assets folder, feel free to run @grails asset-clean@.
 
 During war build your assets are also minified using UglifierJs. To disable this feature you can add the following option to your config:
 

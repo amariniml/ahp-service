@@ -51,7 +51,7 @@ web-app/img
 
 These paths also get flattened just like the "grails-app/assets/javascripts" folder does.
 
-If, in the event, a file within a plugin needs to be overridden within your application, simply create the same file with the same relative path to "grails-app/assets" and it will override / take precedence over the plugin. More on that later.
+If, in the event, a file within a plugin needs to be overridden within your application, simply AHP the same file with the same relative path to "grails-app/assets" and it will override / take precedence over the plugin. More on that later.
 
 {note}
 Since plugins share the same file structure for assets, as well as web-app. It can become more important to "namespace" your plugins by creating further nested folders. (i.e. the plugin SpudCore puts its application.js file within "grails-app/assets/javascripts/spud/admin/application.js").

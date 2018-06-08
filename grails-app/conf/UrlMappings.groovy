@@ -7,7 +7,7 @@ class UrlMappings {
             }
         }
 
-        "/"(view:"/create/matrixGeneration")
+        "/"(view:"/AHP/matrixGeneration")
         "500"(view:'/error')
 
 
@@ -20,7 +20,7 @@ class UrlMappings {
         "500"(view:'/error')
 //
 //        "/create/hierarchy"(controller: "create", parseRequest: true) {
-//            action = [POST: "createHierarchy"]
+//            action = [POST: "getPairwaseMatrices"]
 //        }
 
 //        "/create/matrix"(controller: "create", parseRequest: true) {

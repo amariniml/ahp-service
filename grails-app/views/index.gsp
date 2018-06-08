@@ -42,7 +42,7 @@
 <div id="structure" class="contenedor mt-5 mb-5">
 	<h1 class="mb-3">Please, enter the required data for continue</h1>
 	<hr>
-    <g:form name="myForm" id="form-ahp" url="[action:'createHierarchy',controller:'create']">
+    <g:form name="myForm" id="form-ahp" url="[action:'getPairwaseMatrices', controller:'AHP']">
 	%{--<form action="#" id="form-ahp">--}%
 
 		<div class="col-lg-12">

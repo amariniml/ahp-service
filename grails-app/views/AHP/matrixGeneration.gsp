@@ -36,7 +36,7 @@
             </div>
         </div>
     </footer>
-    <g:form name="matrixForm" id="form-ahp" url="[action:'doTheMath',controller:'results']">
+    <g:form name="matrixForm" id="form-ahp" url="[action:'getTheResultMap', controller:'AHP']">
         <div class="contenedor">
             <div id="pairwaise" class="pairwaise mt-3">
                 <div class="matrix-container">
